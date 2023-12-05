@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: trajan;
+}
+
+@font-face {
+    font-family: trajan;
+    src: url("../trajan/trajantext.ttf");
+}
+
+:root{
+    --cor-01:  black ;
+    --cor-02:  #ffffff;
+}
+
+body{
+    background-image: url(../images/fundo.png);
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo{
+    margin-top: 80px;
+    text-align: center;
+}
+
+#menu{
+    width: 400px;
+    height: 350px;
+    border: 5px ;
+    margin: 0 auto;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu .but .map{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    display: flex;
+    top: 30px;
+    left: 126px;
+    color: var(--cor-02);
+    transition: 0.2s;
+}
+
+#menu .but .fotos{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    display: flex;
+    top: 100px;
+    left: 117px;
+    color: var(--cor-02);
+    transition: 0.2s;
+}
+
+#menu .but a{
+    text-decoration: none;
+    color: var(--cor-02);
+}
+
+#menu .but .map:hover{
+    top: 25px;
+
+}
+
+#menu .but .fotos:hover{
+    top: 95px;
+}
+
+#mapnav a{
+    text-decoration:none;
+    color: rgba(255, 255, 255, 0);
+}
+
+.title{
+    color: var(--cor-02);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#mapg img{
+    width: 900px;
+}
+
+#mapnav{
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(0, 0, 0) solid 2px;
+    max-width: 1068px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 50px;
+}
+
+#mapnav #pu{
+    width: 190px;
+    height: 80px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    left: 200px;
+    font-size: 60px;
+}
+
+#mapnav #dm{
+    width: 170px;
+    height: 80px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 70px;
+    left: 380px;
+    font-size: 50px;
+}
+
+#mapnav #pc{
+    width: 130px;
+    height: 180px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    right: 320px;
+    font-size: 150px;
+}
+
+#mapnav #cv{
+    width: 220px;
+    height: 80px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    left: 200px;
+    font-size: 50px;
+}
+
+#mapnav #ee{
+    width: 220px;
+    height: 80px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 145px;
+    left: 400px;
+    font-size: 50px;
+}
+
+#mapnav #td{
+    width: 240px;
+    height: 40px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 190px;
+    right: 200px;
+    font-size: 25px;
+}
+
+#mapnav #jr{
+    width: 200px;
+    height: 80px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 260px;
+    left: 110px;
+    font-size: 60px;
+}
+
+#mapnav #cn{
+    width: 200px;
+    height: 49px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 225px;
+    left: 250px;
+    font-size: 40px;
+}
+
+#mapnav #ef{
+    width: 150px;
+    height: 90px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 220px;
+    left: 360px;
+    font-size: 60px;
+}
+
+#mapnav #cl{
+    width: 250px;
+    height: 145px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 210px;
+    right: 300px;
+    font-size: 120px;
+}
+
+#mapnav #br{
+    width: 180px;
+    height: 100px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 160px;
+    right: 70px;
+    font-size: 70px;
+}
+
+#mapnav #np{
+    width: 200px;
+    height: 145px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    left: 180px;
+    font-size: 120px;
+}
+
+#mapnav #hr{
+    width: 250px;
+    height: 90px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 130px;
+    right: 290px;
+    font-size: 60px;
+}
+
+#mapnav #ac{
+    width: 185px;
+    height: 120px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 55px;
+    right: 80px;
+    font-size: 100px;
+}
+
+#mapnav #ba{
+    width: 360px;
+    height: 80px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    right: 280px;
+    font-size: 50px;
+}
+
+#image img{
+    border: solid var(--cor-01) 3px;
+    max-width:600px;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 120px;
+    margin-left: 90px;
+    border-radius: 30px;
+    transition: all 0.1s linear;
+}
+
+#image img:hover{
+    transform: scale(1.04);
+}
+
+#image .rmap{
+    display: grid;
+    grid-template-columns: 1fr;
+    float: left;
+}
+
+.desc{
+    float: right;
+    box-sizing: border-box;
+    justify-content: center;
+    max-width: 500px;
+    margin-top: 130px;
+    margin-right:90px ;
+    color: var(--cor-02);
+    font-size: 20px;
+}
+
+#fotos .container{
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    gap: 20px;
+}
+
+#fotos .container img{
+    width: 100%;
+    transition: all 0.1s linear;
+}
+
+#fotos .container img:hover{
+    transform: scale(1.1);
+}
+
+#image #ef img{
+ width: 500px;
+ margin-left: 150px;
+}
+
+#hr img{
+    margin-top: 200px;
+}
+
+#np img{
+    margin-top: 200px;
+}
+
+#td img{
+    margin-top: 200px;
+}
+
+#image img{
+    width: 600px;
+}
+
+#dm img{
+    margin-top: 200px;
+}
+
+#dm_d{
+    font-size: 18px;
+}
+
+#cv img{
+    margin-top: 200px;
+}
+
+#cv_d{
+    font-size: 18px;
+}
+
+#cl_d{
+    font-size: 18px;
+}
+
+#td_d{
+    font-size: 16px;
+}
+
+#ba img{
+    margin-top: 200px;
+}
